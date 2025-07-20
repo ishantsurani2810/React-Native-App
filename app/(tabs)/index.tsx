@@ -1,0 +1,28 @@
+import { View, Text, StyleSheet } from 'react-native'
+import React from 'react'
+
+const app = () => {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Coffee Shop</Text>
+    </View>
+  )
+}
+
+export default app
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  text: {
+    fontSize: 40,
+    fontWeight: 'bold',
+    color: 'white',
+    textAlign: 'center',
+    textTransform: 'capitalize',
+  },
+})
